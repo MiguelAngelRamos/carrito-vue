@@ -1,0 +1,212 @@
+[
+  {
+    "precio": 1249150,
+    "id": 1,
+    "nombre": "Apple iPhone 12 Pro Max Grafito 256Gb",
+    "image": "https://i.linio.com/p/3eebd43470916f18151d45c8e962560e-product.webp",
+    "stock": 4,
+    "caracteristicas": {
+      "color": "Grafito",
+      "memoria_interna": "256GB",
+      "pantalla": "6.7 pulgadas",
+      "camara_principal": "12 MP triple",
+      "sistema_operativo": "iOS"
+    }
+  },
+  {
+    "precio": 2699990,
+    "id": 2,
+    "nombre": "Macbook PRO",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_797920-MLC45629512487_042021-O.webp",
+    "stock": 10,
+    "caracteristicas": {
+      "pantalla": "16 pulgadas",
+      "procesador": "Intel Core i9",
+      "ram": "16GB",
+      "almacenamiento": "1TB SSD",
+      "graficos": "AMD Radeon Pro"
+    }
+  },
+  {
+    "precio": 119990,
+    "id": 3,
+    "nombre": "Amazon Alexa Echo Dot",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_871826-MLA74781536697_022024-O.webp",
+    "stock": 1,
+    "caracteristicas": {
+      "color": "Negro",
+      "conectividad": "Wi-Fi, Bluetooth",
+      "compatibilidad": "Dispositivos inteligentes",
+      "formato": "Compacto",
+      "asistente_virtual": "Alexa"
+    }
+  },
+  {
+    "precio": 1990990,
+    "id": 4,
+    "nombre": "Notebook gamer MSI G565",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_817738-MLC44782210434_022021-O.webp",
+    "stock": 10,
+    "caracteristicas": {
+      "pantalla": "15.6 pulgadas 144Hz",
+      "procesador": "Intel Core i7",
+      "ram": "16GB",
+      "almacenamiento": "512GB SSD",
+      "graficos": "NVIDIA GeForce RTX 3060"
+    }
+  },
+  {
+    "precio": 21990,
+    "id": 5,
+    "nombre": "Teclado gamer RGB K110",
+    "image": "https://i.linio.com/p/d7d86f61626601d087abc86f83f1c8ac-product.webp",
+    "stock": 2,
+    "caracteristicas": {
+      "tipo": "Mecánico",
+      "iluminacion": "RGB",
+      "compatibilidad": "Windows, macOS",
+      "conectividad": "USB",
+      "idioma": "Español"
+    }
+  },
+  {
+    "precio": 1700000,
+    "id": 6,
+    "nombre": "Cámara semiprofesional SX540",
+    "image": "https://i.linio.com/p/4ba7c9a09fcf7efbf8e2fc9216d3df0c-product.webp",
+    "stock": 1,
+    "caracteristicas": {
+      "zoom_optico": "50x",
+      "megapixeles": "20.3 MP",
+      "pantalla": "3 pulgadas LCD",
+      "video": "Full HD",
+      "conectividad": "Wi-Fi"
+    }
+  },
+  {
+    "precio": 899990,
+    "id": 7,
+    "nombre": "Sony Playstation PS5",
+    "image": "https://i.linio.com/p/3f6b447c68d30e0e1b7e8caa7bd49cf4-product.webp",
+    "stock": 0,
+    "caracteristicas": {
+      "capacidad": "825GB SSD",
+      "color": "Blanco",
+      "gpu": "Custom RDNA 2",
+      "compatibilidad": "4K, hasta 120fps",
+      "controlador": "DualSense"
+    }
+  },
+  {
+    "precio": 100990,
+    "id": 8,
+    "nombre": "Micrófono gamer profesional HyperX",
+    "image": "https://www.paris.cl/dw/image/v2/BCHW_PRD/on/demandware.static/-/Sites-paris-marketplace/default/dw9934c3bd/images/imagenes-productos/800/MKES/MKESSLAB4R-001.jpg?sw=513&sh=654&sm=fit",
+    "stock": 2,
+    "caracteristicas": {
+      "tipo": "Condensador",
+      "patron_polar": "Cardioide",
+      "conexion": "USB",
+      "compatibilidad": "PC, PS4, Mac",
+      "color": "Negro"
+    }
+  },
+  {
+    "precio": 120000,
+    "id": 9,
+    "nombre": "Audífono Headset T520 JBL",
+    "image": "https://falabella.scene7.com/is/image/Falabella/16919937_1?wid=1500&hei=1500&qlt=70",
+    "stock": 10,
+    "caracteristicas": {
+      "tipo": "On-ear",
+      "conectividad": "Bluetooth",
+      "color": "Negro",
+      "compatibilidad": "Universal",
+      "batería": "20 horas"
+    }
+  },
+  {
+    "precio": 170000,
+    "id": 10,
+    "nombre": "Audífonos Earbuds GALAXY BUDS FE Gris Samsung",
+    "image": "https://falabella.scene7.com/is/image/Falabella/16915190_1?wid=1500&hei=1500&qlt=70",
+    "stock": 5,
+    "caracteristicas": {
+      "tipo": "In-ear",
+      "conectividad": "Bluetooth 5.0",
+      "color": "Gris",
+      "compatibilidad": "Dispositivos Samsung",
+      "batería": "18 horas con estuche"
+    }
+  },
+  {
+    "precio": 90000,
+    "id": 11,
+    "nombre": "Audífono Gamer On Ear H300 HP",
+    "image": "https://falabella.scene7.com/is/image/Falabella/15357541_1?wid=1500&hei=1500&qlt=70",
+    "stock": 20,
+    "caracteristicas": {
+      "tipo": "On-ear",
+      "conectividad": "Cableado",
+      "color": "Negro",
+      "compatibilidad": "PC, consolas",
+      "batería": "N/A"
+    }
+  },
+  {
+    "precio": 75000,
+    "id": 12,
+    "nombre": "Audífono Recon 50X Black/Green Turtle Beach",
+    "image": "https://falabella.scene7.com/is/image/Falabella/16905537_1?wid=1500&hei=1500&qlt=70",
+    "stock": 15,
+    "caracteristicas": {
+      "tipo": "Over-ear",
+      "conectividad": "Cableado",
+      "color": "Negro/Verde",
+      "compatibilidad": "Xbox One, PS4, PC",
+      "batería": "N/A"
+    }
+  },
+  {
+    "precio": 349990,
+    "id": 13,
+    "nombre": "LED 50” AU7090 4K UHD Smart TV 2022 Samsung",
+    "image": "https://falabella.scene7.com/is/image/Falabella/16223547_1?wid=1500&hei=1500&qlt=70",
+    "stock": 8,
+    "caracteristicas": {
+      "pantalla": "50 pulgadas",
+      "resolución": "4K UHD",
+      "tecnologia": "LED",
+      "smart_tv": true,
+      "model_year": 2022
+    }
+  },
+  {
+    "precio": 199990,
+    "id": 14,
+    "nombre": "Escritorio Esquinero Gamer Night Black KLIK",
+    "image": "https://falabella.scene7.com/is/image/Falabella/gsc_128066613_5079982_1?wid=1500&hei=1500&qlt=70",
+    "stock": 5,
+    "caracteristicas": {
+      "tipo": "Esquinero",
+      "color": "Negro",
+      "dimensiones": "no especificadas",
+      "material": "Madera/ Metal",
+      "especial": "Gamer"
+    }
+  },
+  {
+    "precio": 89990,
+    "id": 15,
+    "nombre": "Escritorio gamer 120x48x88 cm",
+    "image": "https://sodimac.scene7.com/is/image/SodimacCL/8758980_00?wid=1500&hei=1500&qlt=70",
+    "stock": 10,
+    "caracteristicas": {
+      "tipo": "Recto",
+      "color": "Negro",
+      "dimensiones": "120x48x88 cm",
+      "material": "Madera/ Metal",
+      "especial": "Gamer"
+    }
+  }
+]

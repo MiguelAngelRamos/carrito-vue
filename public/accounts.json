@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "email": "miguel@correo.com",
+      "password": "secreto123"
+    },
+    {
+      "email": "sofia@correo.com",
+      "password": "secreto"
+    },
+    {
+      "email": "catalina@correo.com",
+      "password": "secreto"
+    }
+  ]
+}
