@@ -22,10 +22,17 @@
           </li>
         </ul>
 
-        <router-link to="/carrito">
+        <router-link class="carrito-container d-flex" to="/carrito">
           <div class="icon-carrito d-none d-md-none d-lg-block mx-3">
             <i class="fa-solid fa-cart-shopping"></i>
           </div>
+
+          <div class="counter">
+            <div class="counter-number">
+              {{ Object.keys(carrito).length}}
+            </div>
+          </div>
+
         </router-link>
 
         <button class="btn btn-outline-light btn-sm" @click="logout">Cerrar Sesión</button>
@@ -50,6 +57,11 @@ export default {
       localStorage.removeItem('carrito');
       this.$router.push('/login');
     }
+  },
+  computed: {
+    carrito() {
+      return this.$store.state.carrito;
+    }
   }
 }
 </script>
@@ -57,6 +69,27 @@ export default {
 <style scoped>
 .icon-carrito {
   color: white;
-  font-size: 1.3rem;
+  font-size: 2rem;
+  margin-right: 1.2rem !important;
+}
+.carrito-container {
+  position: relative;
+}
+
+.counter {
+  position: absolute;
+  background-color: #91C733;
+  padding: 10px;
+  border-radius: 50%;
+  width: 30px;
+  height: 32px;
+  top: -8px;
+  left: 37px;
+}
+
+.counter .counter-number {
+  position: relative;
+  top: -6px;
+  color: white;
 }
 </style>
