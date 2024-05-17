@@ -1,13 +1,17 @@
 <template>
   <Layout>
-    <h2>Detalle del carrito de compras</h2>
+    <h2 v-if="Object.keys(carrito).length !== 0">Detalle del carrito de compras</h2>
 
-    <table class="table">
+    <p v-if="Object.keys(carrito).length === 0">
+      Carrito Vacio, Ningún producto seleccionado
+    </p>
+    <table class="table" v-if="Object.keys(carrito).length !== 0">
       <thead>
         <tr>
           <th>#</th>
           <th>Image</th>
           <th>Item</th>
+          <th>Precio</th>
           <th>Cantidad</th>
           <th>Acción</th>
           <th>Total</th>
@@ -19,10 +23,8 @@
       </tbody>
 
       <tfoot>
-   
         <tr>
-          <td colspan="5" v-if="Object.keys(carrito).length === 0">Carrito Vacio, Ningún producto seleccionado</td> 
-          <FooterTotal/>
+          <FooterTotal />
         </tr>
       </tfoot>
     </table>

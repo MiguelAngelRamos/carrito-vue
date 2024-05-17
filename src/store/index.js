@@ -13,6 +13,30 @@ export default createStore({
     setCarrito(state, carrito) {
       state.carrito = {...carrito};
       localStorage.setItem('carrito', JSON.stringify(carrito));
+    },
+    aumentar(state, payload){
+      if(state.carrito[payload]) {
+        state.carrito[payload].cantidad = state.carrito[payload].cantidad + 1;
+      }
+
+     localStorage.setItem('carrito', JSON.stringify(state.carrito));
+      // state.carrito[payload].cantidad++;
+    },
+    disminuir(state, payload) {
+
+      if(state.carrito[payload]) {
+        state.carrito[payload].cantidad = state.carrito[payload].cantidad - 1;
+        if(state.carrito[payload].cantidad == 0) {
+          delete state.carrito[payload]
+        }
+      }
+
+      localStorage.setItem('carrito', JSON.stringify(state.carrito));
+     
+    },
+    cancelarOrden(state) {
+      state.carrito = {}
+      localStorage.setItem('carrito', JSON.stringify(state.carrito));
     }
   },
   actions: {
@@ -31,4 +55,15 @@ export default createStore({
       commit('setCarrito', carrito)
     }
   },
+  getters: {
+    // getters toman algo del state y pueden devolver un resultado de calculo sobre el state.
+    //* carrito es un objeto {}
+    totalCantidad(state) {
+      // acc = es el acumulador
+      return Object.values(state.carrito).reduce((acc, {cantidad}) => acc + cantidad, 0);
+    },
+    totalPrecio(state) {
+      return Object.values(state.carrito).reduce((acc, {cantidad, precio}) => acc + (cantidad * precio), 0);
+    }
+  }
 })
